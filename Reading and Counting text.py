@@ -12,12 +12,13 @@ Created on Sat May 21 16:33:33 2022
 # --> {"cake":2, "big":1, "is":2, "the":1, "a":1, "it":1}
 
 
+#Define a function to read the file
 def read_file_content(filename):
     with open(filename) as f:
         text=f.read()
     return text
 
-
+#Define a function to count the words
 def count_words():
     text = read_file_content("./story.txt")
     print(text)
@@ -35,3 +36,5 @@ def count_words():
     return word_counter
 
 count_words()
+
+
