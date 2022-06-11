@@ -1,4 +1,4 @@
-# inport a python module called random
+# import a python module called random
 import random
 
 while True:
